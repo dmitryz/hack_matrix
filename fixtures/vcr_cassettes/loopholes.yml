@@ -1,0 +1,215 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://challenge.distribusion.com/the_one/routes?passphrase=Kans4s-i$-g01ng-by3-bye&source=loopholes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 21 Sep 2017 19:24:35 GMT
+      Content-Type:
+      - application/zip
+      Content-Length:
+      - '723'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.12.1
+      Content-Disposition:
+      - attachment; filename*=UTF-8''loopholes
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        UEsDBAoAAAAAACqKY0kAAAAAAAAAAAAAAAAKABAAbG9vcGhvbGVzL1VYDACD
+        bRxYEGMbWPUBFABQSwMEFAAIAAgAQYtjSQAAAAAAAAAAAAAAABkAEABsb29w
+        aG9sZXMvbm9kZV9wYWlycy5qc29uVVgMAMhsHFgaZRtY9QEUAKvmUlBQystP
+        SY0vSMwsKlayUogGiigoVINJoFxmClBMyVBJByZQXJJYVBIP0gKSSE/MzU1E
+        SKbmpcClSjJSSxKVwDK1OtgMNcJlaBJII3lmGuMyE6ITq6E5iblJKTBTgWQs
+        Vy0XAFBLBwjG0b4KZgAAABgBAABQSwMEFAAIAAgAGY5jSQAAAAAAAAAAAAAA
+        ABUAEABsb29waG9sZXMvcm91dGVzLmpzb25VWAwAyWwcWHJqG1j1ARQAq+ZS
+        UFAqyi8tSS1WslKIBvIUFKrBJEw8PjMFKKNkqKQDE87LT0mNL0jMLMKUKi5J
+        LCqJL8nMTQVJGBkYG+gaGukaG4YYGlsZGFgZmEQh1KbmpeBRaRqlBFZYq0OW
+        m4yJd5Mp0W4yI8JNRrjdZDQI3URCOJkR7SZzItxkjNtNlsS7yYBoNxnA3AQk
+        Y7lquQBQSwcIgR/xeY8AAAD5AgAAUEsBAhUDCgAAAAAAKopjSQAAAAAAAAAA
+        AAAAAAoADAAAAAAAAAAAQO1BAAAAAGxvb3Bob2xlcy9VWAgAg20cWBBjG1hQ
+        SwECFQMUAAgACABBi2NJxtG+CmYAAAAYAQAAGQAMAAAAAAAAAABApIE4AAAA
+        bG9vcGhvbGVzL25vZGVfcGFpcnMuanNvblVYCADIbBxYGmUbWFBLAQIVAxQA
+        CAAIABmOY0mBH/F5jwAAAPkCAAAVAAwAAAAAAAAAAECkgfUAAABsb29waG9s
+        ZXMvcm91dGVzLmpzb25VWAgAyWwcWHJqG1hQSwUGAAAAAAMAAwDmAAAA1wEA
+        AAAA
+    http_version: 
+  recorded_at: Thu, 21 Sep 2017 19:24:36 GMT
+- request:
+    method: post
+    uri: https://challenge.distribusion.com/the_one/routes
+    body:
+      encoding: US-ASCII
+      string: passphrase=Kans4s-i%24-g01ng-by3-bye&source=loopholes&start_node=gamma&end_node=theta&start_time=2030-12-31T13%3A00%3A04&end_time=2030-12-31T13%3A00%3A05
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Thu, 21 Sep 2017 19:24:35 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '182'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.12.1
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ezoiKOKAosyAX+KAosyBICkiPT4iVGFyZ2V0aW5nLi4uIGFsbW9zdCB0aGVy
+        ZS4gTG9jayEgSSBnb3QgaGltISIsIDoiKOKMkOKWoF/ilqApIj0+Ik5vdywg
+        VGFuayBub3chIiwgOiItLS0tLS0tLSI9PiItLS0tLS0tLSIsIDoi44O9KMK0
+        4oC/772AKeODjiI9PiJXZWxjb21lIHRvIHRoZSByZWFsIHdvcmxkLCBOZW8u
+        In0=
+    http_version: 
+  recorded_at: Thu, 21 Sep 2017 19:24:36 GMT
+- request:
+    method: post
+    uri: https://challenge.distribusion.com/the_one/routes
+    body:
+      encoding: US-ASCII
+      string: passphrase=Kans4s-i%24-g01ng-by3-bye&source=loopholes&start_node=theta&end_node=lambda&start_time=2030-12-31T13%3A00%3A05&end_time=2030-12-31T13%3A00%3A06
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Thu, 21 Sep 2017 19:24:36 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '182'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.12.1
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ezoiKOKAosyAX+KAosyBICkiPT4iVGFyZ2V0aW5nLi4uIGFsbW9zdCB0aGVy
+        ZS4gTG9jayEgSSBnb3QgaGltISIsIDoiKOKMkOKWoF/ilqApIj0+Ik5vdywg
+        VGFuayBub3chIiwgOiItLS0tLS0tLSI9PiItLS0tLS0tLSIsIDoi44O9KMK0
+        4oC/772AKeODjiI9PiJXZWxjb21lIHRvIHRoZSByZWFsIHdvcmxkLCBOZW8u
+        In0=
+    http_version: 
+  recorded_at: Thu, 21 Sep 2017 19:24:37 GMT
+- request:
+    method: post
+    uri: https://challenge.distribusion.com/the_one/routes
+    body:
+      encoding: US-ASCII
+      string: passphrase=Kans4s-i%24-g01ng-by3-bye&source=loopholes&start_node=beta&end_node=theta&start_time=2030-12-31T13%3A00%3A05&end_time=2030-12-31T13%3A00%3A06
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Thu, 21 Sep 2017 19:24:36 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '182'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.12.1
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ezoiKOKAosyAX+KAosyBICkiPT4iVGFyZ2V0aW5nLi4uIGFsbW9zdCB0aGVy
+        ZS4gTG9jayEgSSBnb3QgaGltISIsIDoiKOKMkOKWoF/ilqApIj0+Ik5vdywg
+        VGFuayBub3chIiwgOiItLS0tLS0tLSI9PiItLS0tLS0tLSIsIDoi44O9KMK0
+        4oC/772AKeODjiI9PiJXZWxjb21lIHRvIHRoZSByZWFsIHdvcmxkLCBOZW8u
+        In0=
+    http_version: 
+  recorded_at: Thu, 21 Sep 2017 19:24:37 GMT
+- request:
+    method: post
+    uri: https://challenge.distribusion.com/the_one/routes
+    body:
+      encoding: US-ASCII
+      string: passphrase=Kans4s-i%24-g01ng-by3-bye&source=loopholes&start_node=theta&end_node=lambda&start_time=2030-12-31T13%3A00%3A06&end_time=2030-12-31T13%3A00%3A07
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+      Content-Type:
+      - application/x-www-form-urlencoded
+  response:
+    status:
+      code: 201
+      message: Created
+    headers:
+      Date:
+      - Thu, 21 Sep 2017 19:24:36 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '182'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.12.1
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        ezoiKOKAosyAX+KAosyBICkiPT4iVGFyZ2V0aW5nLi4uIGFsbW9zdCB0aGVy
+        ZS4gTG9jayEgSSBnb3QgaGltISIsIDoiKOKMkOKWoF/ilqApIj0+Ik5vdywg
+        VGFuayBub3chIiwgOiItLS0tLS0tLSI9PiItLS0tLS0tLSIsIDoi44O9KMK0
+        4oC/772AKeODjiI9PiJXZWxjb21lIHRvIHRoZSByZWFsIHdvcmxkLCBOZW8u
+        In0=
+    http_version: 
+  recorded_at: Thu, 21 Sep 2017 19:24:37 GMT
+recorded_with: VCR 2.9.3
